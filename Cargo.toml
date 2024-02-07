@@ -1,0 +1,16 @@
+[package]
+name = "warkawik-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "0.13"
+actix-files = "0.6"
+actix-web = "4.4"
+actix-web-actors = "4.1"
+actix-ws = "0.2.5"
+env_logger = "0.11"
+futures-util = { version = "0.3.17", default-features = false, features = ["std"] }
+log = "0.4"
+tokio = { version = "1.24.2", features = ["full"] }
+tokio-stream = "0.1.8"
